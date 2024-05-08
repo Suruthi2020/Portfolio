@@ -3,19 +3,20 @@ import './home.css';
 import { Link } from 'react-router-dom'
 import img from './assests/A.png';
 function Navbar() {
-    // const [isOpen, setIsOpen] = useState(false);
+       // const [isOpen, setIsOpen] = useState(false);
 
-    const toggleNavbar = function () {
-      var items = document.querySelector('.toggleButton');
-      if (items.style.display === 'flex') {
-          items.style.display = 'none';
-      } else {
-          items.style.display = 'flex';
-      }
-  }
+       const toggleNavbar = function () {
+        var items = document.querySelector('.toggleButton');
+        if (items.style.display === 'flex') {
+            items.style.display = 'none';
+        } else {
+            items.style.display = 'flex';
+        }
+    }
     return (
+      <>
       <nav className='navbar'>
-        <img id='img' src={img} alt={'error'} width='180px' height='180px' />
+        <img id='img' src={img} alt={'error'} width='250px' height='200px' />
         <div className='logoname'>
           <h1 id='fname'>SURUTHI VIJAYAN</h1>
           <div id='line'></div>
@@ -32,6 +33,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
+      </>
     );
   }
 

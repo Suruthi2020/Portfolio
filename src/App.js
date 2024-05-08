@@ -5,12 +5,14 @@ import Academic from './Academic';
 import Project from './Projects';
 import Contact from './Contact';
 import Technicalskills from './Technicalskills';
+import Homepage from './Homepage';
 function App() {
   return (
     <>
   <BrowserRouter>
+  <Home/>
   <Routes>
-    <Route path='/' element={<Home/>}/>
+    <Route path='/' element={<Homepage/>}/>
     <Route path='/academic' element={<Academic/>}/>
     <Route path='/project' element={<Project/>}/>
     <Route path='/contact' element={<Contact/>}/>
