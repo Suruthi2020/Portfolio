@@ -6,6 +6,7 @@ import Project from './Projects';
 import Contact from './Contact';
 import Technicalskills from './Technicalskills';
 import Homepage from './Homepage';
+
 function App() {
   return (
     <>

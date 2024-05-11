@@ -51,7 +51,8 @@ textarea {
 @media screen and (max-width: 768px){
     .form{
         
-        /* margin-left: 80px !important; */
+        margin-left: auto !important;
+        margin-right: auto;
         height: auto;
         align-items: center !important;
     }
