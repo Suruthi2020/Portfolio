@@ -29,7 +29,6 @@ function Navbar() {
           <Link className='nav' to='/academic'>Academic</Link>
           <Link className='nav' to='/project'>Projects</Link>
           <Link className='nav' to='/contact' >Contact</Link>
-          <Link className='nav' to='/technical' >Technicalskills</Link>
           </div>
         </div>
       </nav>
