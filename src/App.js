@@ -4,7 +4,6 @@ import Home from './Navbar'
 import Academic from './Academic';
 import Project from './Projects';
 import Contact from './Contact';
-import Technicalskills from './Technicalskills';
 import Homepage from './Homepage';
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
     <Route path='/academic' element={<Academic/>}/>
     <Route path='/project' element={<Project/>}/>
     <Route path='/contact' element={<Contact/>}/>
-    <Route path='/technical' element={<Technicalskills/>}/>
   </Routes>
   </BrowserRouter>
     </>
