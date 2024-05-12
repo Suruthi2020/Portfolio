@@ -77,14 +77,15 @@
         display: block;
     }
     .card{
-        width: 320px;
+        width: 80% !important;
         height: 310px;
         margin-bottom: 3rem;
-        margin-left: 10rem;
+        margin-left: auto !important;
         margin-top: 2%;
     }
     .wrapper{
         margin-top: 0;
         margin-bottom: 0;
+        width: 80% !important;
     }
 }

@@ -3,6 +3,7 @@ import './project.css';
 function Projects() {
   return (
     <>
+      <section className='bmain'>
       <section className='body'>
       <div className="main">
         <h3 className='heading'>Projects</h3>
@@ -41,6 +42,7 @@ function Projects() {
           </ul>
         </div>
       </div>
+      </section>
       </section>
     </>
   )

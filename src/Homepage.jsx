@@ -18,17 +18,14 @@ function Homepage() {
 
     return (
       <>
-      
-      
-
-
+<section className='bmain'>
 <div id='body'>
   <img id='img1'
         src={img1}
-        
         alt={'err'}
         style={{ opacity: opacity, transition: 'opacity 1s' }}
       />
+        
 
       <div id='para'  style={{ opacity: opacity, transition: 'opacity 1s' }}>
           <p id='parap'>    
@@ -40,9 +37,7 @@ function Homepage() {
           </p>
       </div>
 </div>
-      
-
-      
+</section>
       </>
     );
   }

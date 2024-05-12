@@ -6,7 +6,9 @@ import image3 from './assests/sec.png';
 function Academic() {
   return (
     <>
-    <body id='mainbody'>
+      
+
+    <div id='mainbody'>
       <div className='wrapper'>
         <div className='card'>
           <img src={image1} alt={'err'} />
@@ -37,7 +39,9 @@ function Academic() {
           </div>
         </div>
       </div>
-    </body>
+    </div>
+    
+
     </>
   )
 }

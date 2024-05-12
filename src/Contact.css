@@ -59,4 +59,7 @@ textarea {
     #button{
         margin-left: 124px;
     }
+    .form{
+        width: 334px !important;
+    }
 }

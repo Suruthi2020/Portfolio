@@ -28,7 +28,8 @@ const Contact = () => {
     };
 
     return (
-        <form className='form' onSubmit={handleSubmit}>
+        <section className='bmain'>
+            <form className='form' onSubmit={handleSubmit}>
             <div className="form-group">
                 <label className='lname' htmlFor="name">Name</label>
                 <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
@@ -43,6 +44,7 @@ const Contact = () => {
             </div>
             <button id='button' type="submit">Submit</button>
         </form>
+        </section>
     );
 };
 
